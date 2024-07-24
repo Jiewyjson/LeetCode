@@ -5,7 +5,6 @@ const PROBLEM_ID: &str = "2766";
 mod test {
 	use solution_2766 as solution;
     use test_executor::run_test::run_test;
-
     use crate::{PROBLEM_FOLDER, PROBLEM_ID};
 
     #[test]
