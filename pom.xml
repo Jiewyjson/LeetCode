@@ -92,6 +92,6 @@
             </plugin>
         </plugins>
         <sourceDirectory>.</sourceDirectory>
-        <testSourceDirectory>qubhjava/test</testSourceDirectory>
+<!--        <testSourceDirectory>qubhjava/test</testSourceDirectory>-->
     </build>
 </project>
