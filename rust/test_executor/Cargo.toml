@@ -16,3 +16,4 @@ assert_float_eq = "1"
 
 solution_2766 = { path = "../../myProblems/myProblems_2766", features = ["solution_2766"] }
 solution_2844 = { path = "../../myProblems/myProblems_2844", features = ["solution_2844"] }
+solution_2740 = { path = "../../myProblems/myProblems_2740", features = ["solution_2740"] }
