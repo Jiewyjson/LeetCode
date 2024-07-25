@@ -9,8 +9,7 @@ readme = "../README.md"
 
 [features]
 run_test = []
-default = []
 
 [dependencies]
 serde_json = "1.0"
-solution_2766 = { path = "../../myProblems/myProblems_2766", features = ["solution_2766"] }
+assert_float_eq = "1"
