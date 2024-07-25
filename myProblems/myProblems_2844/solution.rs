@@ -15,10 +15,10 @@ impl Solution {
 	fn help(num:String,end:Vec<char>) -> i32{
 		let n = num.len() as i32;
 		if let Some(i) = num.rfind(end[1]){
-			if let Some(j) = num[..i].rfind(end[0]){
-				return n - j as i32 - 2;
-			}else{
-				return n;
+			return if let Some(j) = num[..i].rfind(end[0]) {
+				n - j as i32 - 2
+			} else {
+				n
 			}
 		}
 		n
