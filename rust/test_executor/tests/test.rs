@@ -1,4 +1,4 @@
-const PROBLEM_FOLDER: &str = "problems";
+const PROBLEM_FOLDER: &str = "myProblems";
 const PROBLEM_ID: &str = "2844";
 
 #[cfg(test)]
